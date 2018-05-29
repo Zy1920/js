@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>属性选择器</title>
+	</head>
+
+	<body>
+		<p class="pclass"></p>
+		<input type="text" name="username" id="username" value="zhangsan" />
+		<input type="button" name="username" id="username" value="zhangsan" />
+
+		<script src="js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			var arr=$("[type]")
+            console.log(arr.length)
+            var arr2=$("[type='text']")
+            console.log(arr2.length)
+		</script>
+	</body>
+</html>

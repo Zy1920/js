@@ -1,0 +1,213 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.header{
+    height: 60px;
+    width: 100%;
+}
+
+.header1{
+    position: relative;
+    line-height: 60px;
+    vertical-align: middle;
+    width: 30%;
+    float: left; 
+}
+
+.header2{
+    position: relative;
+    line-height: 60px;
+    vertical-align: middle;
+    width: 45%;
+    float: left; 
+ }
+
+ .header3{
+    position: relative;
+    line-height: 60px;
+    vertical-align: middle;
+    width: 25%;
+    float: left; 
+ }
+
+ .header4{
+     text-decoration: none;
+ }
+
+ .nav{
+     position: absolute;
+     width: 100%;
+     height: 50px;
+     background: #000;
+     border-radius: 5px;
+     margin: 0 auto;
+ }
+
+ .nav_left{
+     position: relative;
+     float: left;
+     line-height: 50px;
+     vertical-align: middle;
+     width: 80%;
+ }
+
+ .nav_left_1{
+    font-size: 20px;
+}
+
+ .nav_left a:link{
+    color:#909090;
+    text-decoration: none;
+ }
+
+ .nav_left a:visited{
+    color:#909090;
+    text-decoration: none;
+ }
+
+ .nav_left  a:hover{
+     color: #FFFFFF;
+     text-decoration: none;
+ }
+ 
+.nav_left a:active{
+    color:#909090;
+    text-decoration: none;
+}
+
+.nav_right{
+    position: relative;
+    float: right;
+    line-height: 50px;
+    vertical-align: middle;
+    width:20%;
+}
+
+.nav_right input{
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.content{
+    margin-top: 90px;
+    width: 100%;
+    height: 620px;
+    background-image: url(img/regist_bg.jpg);
+}
+
+.block{
+    height: 40px;
+}
+
+.main{
+    background: #FFFFFF;
+    position: relative;
+    width:60%;
+    height: 520px;
+    margin-left: 250px;
+    border: 5px solid #cccccc;
+}
+
+.text{
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.text1{
+    font-size: 20px;
+    color:#3164AF;
+}
+
+.content_form{
+    width:100%;
+    line-height: 39px;
+}
+
+.userform{
+    width: 100%;
+}
+
+.elm1{
+    width: 100%;
+    margin-top: 15px;
+}
+
+.span1{
+    position: relative;
+    width:20%;
+    float: left;
+    text-align: right;
+    font-weight:bold; 
+    margin-top: 8px;
+}
+
+.form1{
+    position: relative;
+    width: 80%;
+    float: right;
+    text-align: left;
+    margin-top: 8px;
+   
+}
+
+.input1{
+    height: 30px;
+    width: 300px;
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+}
+
+.input2{
+    height: 30px;
+    width: 150px;
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+}
+
+.input3{
+    height: 30px;
+    width: 100px;
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+    background: red;
+}
+
+.footer{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.footer_link{
+    margin-top: 8px;
+}
+
+.footer_link a{
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+
+
+.footer_link a:link{
+    text-decoration: none;
+}
+.footer_link a:visited{
+    text-decoration: none;
+}
+
+.footer_link a:hover{
+    text-decoration: underline;
+    color:#23527C;
+}
+
+.footer_link a:active{
+    text-decoration: none;
+}
+
+.footer_last{
+    margin-top: 10px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+        <title>作业</title>
+        <style>
+            .important{
+                color: red;
+            }
+            #id_div{
+                color: green;
+            }
+            span{
+                color:blue; 
+            }
+            *[city]{
+                color: gray;
+            }
+            a:link{
+                color: blue;
+            }
+            a:visited{
+                color: brown;
+            }
+            a:hover{
+                color: chartreuse;
+            }
+            a:active{
+                color: #000;
+            }
+        </style>
+		<!--
+	1. 使用类选择器,设置a标签中的文本为红色
+	2. 使用id选择器,设置id为id_div中的文本为绿色
+	3. 使用标签选择器,设置span标签中的文本为蓝色
+	4. 使用属性选择器,设置有city属性的文本为灰色
+	5. 使用伪类选择器, 设置a标签的颜色为四种颜色
+-->
+	</head>
+	<body>
+		<h2>这是普通h2<span>标签</span> <p>hello <span>world</span> </p>   </h2>
+		<h2 class="class1">这是class="class1"的h2<span>标签</span></h2>
+		<h2 id="id1">这是id="id1"的h2<span>标签</span></h2>
+		<p>这是p <span>标签</span></p>
+		<a href="#" class="important">a标签中的文本</a>
+		<div id="id_div">div中的文本</div>
+		<em city="shenzhen">em标签中的文本</em>
+	</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>透明度动画</title>
+
+		<style type="text/css">
+			div {
+				width: 100px;
+				height: 100px;
+				border: red solid 1px;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<input type="button" value="fadeIn" onclick="fadeIn()" />
+		<input type="button" value="fadeOut" onclick="fadeOut()" />
+		<input type="button" value="fadeToggle" onclick="fadeToggle()" />
+		<input type="button" value="fadeTo" onclick="fadeTo()" />
+
+		<div id="div1">
+
+		</div>
+		<script src="js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			function fadeIn(){
+                $("#div1").fadeIn()
+            }
+            function fadeOut(){
+                $("#div1").fadeOut()
+            }
+            function fadeToggle(){
+                $("#div1").fadeToggle()
+            }
+            function fadeTo(){
+                $("#div1").fadeTo(800,0.2)
+            }
+		</script>
+
+	</body>
+
+</html>

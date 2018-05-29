@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>其他属性的获取和设置</title>
+	</head>
+	<body>
+		<input type="button" id="btn" value="注册" />
+		<input id="rd" type="radio" value="male" name="gender" />男
+		<input type="radio" value="female" name="gender" />女
+		<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+		<script>
+            console.log($("#btn").attr("value")) 
+            $("#rd").attr({
+                "性别":"男",
+                "city":"深圳"
+            })
+            console.log($("#rd").attr("city"))
+		</script>
+	</body>
+</html>

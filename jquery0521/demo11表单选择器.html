@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>表单选择器</title>
+	</head>
+
+	<body>
+
+		<form>
+
+			<input type="password" />
+			<input type="" />
+			<input type="radio" />
+			<input type="checkbox" />
+
+			<select name="city">
+				<option value="">beijing</option>
+			</select>
+
+			<textarea name="" rows="" cols=""></textarea>
+
+			<input type="submit" value="注册" />
+		</form>
+
+		<script src="js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			var arr=$("input")
+            console.log(arr.length)
+            var arr1=$(":input")
+            //console.log(arr1.length)
+		</script>
+
+	</body>
+
+</html>

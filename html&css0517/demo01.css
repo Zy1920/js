@@ -1,0 +1,8 @@
+.important{color: red;};
+#id_div{color: green;};
+span{color:blue; };
+*[city]{color: gray;};
+a:link{color: blue;};
+a:visited{color: brown;};
+a:hover{color: chartreuse;};
+a:active{color: #000;;}

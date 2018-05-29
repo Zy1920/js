@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>显示隐藏动画</title>
+		<style type="text/css">
+			div {
+				width: 100px;
+				height: 100px;
+				border: red solid 1px;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<input type="button" value="show" onclick="show()" />
+		<input type="button" value="hide" onclick="hide()" />
+		<input type="button" value="toggle" onclick="toggle()" />
+
+		<div id="div1">
+
+		</div>
+		<script src="js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript">
+            function show() {
+                $("#div1").show("800","linear",function(){
+                    alert("嘻嘻");
+                })
+            }
+            function hide(){
+                $("#div1").hide()
+            }
+            function toggle(){
+                $("#div1").toggle()
+            }
+			
+		</script>
+
+	</body>
+
+</html>

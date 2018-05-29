@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>操作元素中的内容</title>
+	</head>
+	<body>
+		<input type="text" id="username" value="zhangsan" />
+		<p id="pid">this is a p
+			<a href="#">aaaaa</a>
+		</p>
+		<p id="pid2"></p>
+		<script src="js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+            var result=$("#username").val()
+            console.log(result)
+            $("#pid").val("嘻嘻嘻")
+            console.log($("#pid").text())
+            console.log($("#pid").html())
+		</script>
+	</body>
+</html>
